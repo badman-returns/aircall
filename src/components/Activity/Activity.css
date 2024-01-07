@@ -1,0 +1,22 @@
+.activity-container {
+   display: flex;
+   height: 4rem;
+   gap: 8px;
+}
+
+.activity-call-type {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-right: 1px #bdbdbd;
+}
+
+.activity-call-info {
+   flex: 1;
+}
+
+.activity-duration {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

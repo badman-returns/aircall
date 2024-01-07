@@ -1,0 +1,29 @@
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.screen {
+   width: 23rem;
+   height: 45rem;
+   background: white;
+   border-radius: 12px;
+   overflow: scroll;
+   scroll-behavior: smooth;
+   scroll-margin: 0;
+}
+
+.header {
+   width: inherit;
+   background: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: fixed;
+   left: 172px;
+   right: 0;
+   top: 50px;
+}

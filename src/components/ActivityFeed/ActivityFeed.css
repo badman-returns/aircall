@@ -1,0 +1,24 @@
+.activity-feed {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   padding-top: 7rem;
+}
+
+.activity-date-section {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.activity-border {
+   flex-grow: 1;
+   background-color: #e6ebe4;
+   height: 1px;
+}
+
+.activity-date {
+   flex-grow: 1;
+   text-align: center;
+   color: #282828;
+}
